@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">AJUSTES</string>
+    <string name="info">INFORMACIÓN</string>
+    <string name="pref_title_sms_to_send">Mensajes disponibles por mes</string>
+    <string name="pref_title_ringtone">Sonido de notificación</string>
+    <string name="pref_ringtone_silent">Silencioso</string>
+    <string name="not_sms_remaining">Quedan %d sms para enviar.</string>
+    <string name="not_sms_exhausted">Ups… Has agotadado los %d sms.</string>
+    <string name="intro_description_1">SmsRadar permite tener el control de los sms enviados cada mes, muy útil para móviles que solo disponen del servicio de mensajería y que está limitado por una cantidad de sms al mes.</string>
+    <string name="intro_description_2">Esta app viene con un widget \n :-)</string>
+    <string name="intro_title_2">Permiso</string>
+    <string name="intro_description_2_1">SmsRadar necesita el permiso de lectura para los sms.</string>
+    <string name="intro_grant_permission">CONCEDER PERMISO</string>
+    <string name="channel_sms_exhausted">Notificar sms agotados</string>
+    <string name="channel_sms_remaining">Notificar sms restantes</string>
+    <string name="channel_sms_restore">Notificar restablecimiento de sms </string>
+    <string name="not_sms_restore">Yupi… ¡Tienes %d sms para enviar!</string>
+    <string name="pref_title_notify">Notificar</string>
+    <string name="pref_summary_notify_sms_exhausted">Cuando se agoten los sms</string>
+    <string name="pref_summary_notify_sms_reset">Cuando se retablescan los sms</string>
+    <plurals name="pref_summary_notify_sms_remaining">
+        <item quantity="one">Cuando reste %d sms</item>
+        <item quantity="other">Cuando resten %d sms</item>
+    </plurals>
+    <string name="pref_dialog_sms_remaining_title">Número de sms restantes</string>
+    <string name="pref_dialog_sms_remaining_error">El valor debe ser menor que los mensajes disponible por mes (%d).</string>
+    <string name="toast_sms_remaining_reset">El valor de notificación para los sms restantes fue reseteado a %d.</string>
+    <string name="pref_dialog_sms_amount_error">Valor máximo permitido: %d</string>
+    <string name="toast_value_not_valid">El valor proporcionado no es válido.</string>
+    <string name="developer">Desarrollador</string>
+    <string name="certificate">Ingeniero en Ciencias Informáticas</string>
+    <string name="support">Soporte</string>
+    <string name="social_networks">Redes sociales</string>
+    <string name="toast_copy">Copiado \"%s\" al portapapeles</string>
+</resources>

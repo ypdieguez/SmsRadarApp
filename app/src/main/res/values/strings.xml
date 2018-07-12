@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmsRadar</string>
+    <string name="service_name">SmsRadarService</string>
+    <string name="settings">SETTINGS</string>
+    <string name="info">INFO</string>
+    <string name="pref_title_sms_to_send">Messages available per month</string>
+    <string name="pref_title_ringtone">Notification sound</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="not_sms_remaining">Remaining %d to send.</string>
+    <string name="not_sms_exhausted">Oops… You have exhausted %d sms.</string>
+    <string name="intro_description_1">SmsRadar allows control of sms sent every month, very useful for phones that only have available the messaging service and this is limited by an amount of sms per month.</string>
+    <string name="intro_description_2">This app has a widget \n :-)</string>
+    <string name="intro_title_2">Permission</string>
+    <string name="intro_description_2_1">SmsRadar need read permission for sms.</string>
+    <string name="intro_grant_permission">GRANT PERMISSION</string>
+    <string name="channel_sms_exhausted">Sms exhausted</string>
+    <string name="channel_sms_remaining">Sms remaining</string>
+    <string name="channel_sms_restore">Sms restore</string>
+    <string name="not_sms_restore">Oh yea… You have %d sms to send!</string>
+    <string name="pref_title_notify">Notify</string>
+    <string name="pref_summary_notify_sms_exhausted">When exhausted sms</string>
+    <string name="pref_summary_notify_sms_reset">When restore sms</string>
+    <plurals name="pref_summary_notify_sms_remaining">
+        <item quantity="other">When remaining %s sms</item>
+    </plurals>
+    <string name="pref_dialog_sms_remaining_title">Number of sms remaining</string>
+    <string name="pref_dialog_sms_remaining_error">The value must be less than the amount of sms available by month (%d).</string>
+    <string name="toast_sms_remaining_reset">The value of notification for sms remaining was reset to %d.</string>
+    <string name="pref_dialog_sms_amount_error">Max value allowed: %d</string>
+    <string name="toast_value_not_valid">Value added is not valid.</string>
+    <string name="toast_copy">Copied \"%s\" to clipboard</string>
+
+    <!--DEFAULT VALUES-->
+    <string name="default_value_sms_to_send">160</string>
+    <string name="default_value_sms_remaining">10</string>
+    <string name="default_value_ringtone">content://settings/system/notification_sound</string>
+    <string name="dialog_edit_text_hint">0</string>
+
+    <!--DEVELOPER INFO-->
+    <string name="developer">Developer</string>
+    <string name="certificate">Engineer of Computer Science</string>
+    <string name="support">Support</string>
+    <string name="social_networks">Social Networks</string>
+
+</resources>
