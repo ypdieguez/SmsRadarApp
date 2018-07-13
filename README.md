@@ -1,6 +1,8 @@
 # SmsRadar
 SmsRadar is a app that allows control of sms sent every month, very useful for phones that only have available the messaging service and this is limited by an amount of sms per month.
 
+[Download](https://github.com/ypdieguez/SmsRadar/releases/download/1.0/SmsRadar_v1.0.apk)
+
 ## What does the app do
 * Count the sent sms by paging.
 * Notify when are leaving a few sms in the month of available.
